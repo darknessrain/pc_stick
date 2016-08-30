@@ -103,7 +103,7 @@
       "lang_iphone_title": "iPhone",
       "lang_iphone_text": "Required iOS 8.0 or 8.0+ version",
       "lang_download_text02": "Download",
-      "lang_skt_title": "Multi-Media Streaming",
+      "lang_skt_title": "Media Streaming",
       "lang_skt_text01": "Control your PC by ShareKanTan",
       "lang_download_text03": "More"
 }
