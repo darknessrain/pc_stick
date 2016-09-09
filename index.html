@@ -14,9 +14,12 @@
         <link href="css/eql_temp.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <!--[if IE]>
+         <link href="css/ie.css" rel="stylesheet">
+        <![endif]-->
     </head>
     <body class="" onload="detectUserLang()" style="cursor: auto;" data-pinterest-extension-installed="cr1.39.1">
       <header id="header">
@@ -87,6 +90,9 @@
                                 </li>
 
                             </ul>
+                        </li>
+                        <li>
+                            <button id="lang_navshop" type="button" value="order" onclick="window.open('http://shopping.eql.com.tw/v2/official')" class="btn button navbar-btn btn_order">線上商店</button>
                         </li>
 
 
@@ -187,7 +193,7 @@
                             </div>
                             <div class="product_intro_block">
                                 <h4 id="lang_smartestpc">小巧輕薄</h4>
-                                <h6 id="lang_smartestpc_cont">世界上最小的Windows OS裝置</h6>
+                                <p id="lang_smartestpc_cont">世界上最小的Windows OS裝置</p>
                             </div>
                         </div>
                     </div>
@@ -200,7 +206,7 @@
                             </div>
                             <div class="product_intro_block">
                                 <h4 id="lang_pcperformance">電腦效能</h4>
-                                <h6 id="lang_pcperformance_cont">搭載Intel 四核心處理器及Windows 10作業系統</h6>
+                                <p id="lang_pcperformance_cont">搭載Intel 四核心處理器及Windows 10作業系統</p>
                             </div>
                         </div>
                     </div>
@@ -213,7 +219,7 @@
                             </div>
                             <div class="product_intro_block">
                                 <h4 id="lang_HDMI">HDMI CEC功能</h4>
-                                <h6 id="lang_HDMI_cont">可與電視或外部螢幕同步開關</h6>
+                                <p id="lang_HDMI_cont">可與電視或外部螢幕同步開關</p>
                             </div>
                         </div>
                     </div>
@@ -228,7 +234,7 @@
                             </div>
                             <div class="product_intro_block">
                                 <h4 id="lang_pluginfor">隨插即用</h4>
-                                <h6 id="lang_pluginfor_cont">插進HDMI螢幕或電視即可...</h6>
+                                <p id="lang_pluginfor_cont">插進HDMI螢幕或電視即可...</p>
                             </div>
                         </div>
                     </div>
@@ -241,7 +247,7 @@
                             </div>
                             <div class="product_intro_block">
                                 <h4 id="lang_usb_comp">USB標準介面</h4>
-                                <h6 id="lang_usb_cont">連接鍵盤滑鼠或其他USB裝置</h6>
+                                <p id="lang_usb_cont">連接鍵盤滑鼠或其他USB裝置</p>
                             </div>
                         </div>
                     </div>
@@ -254,7 +260,7 @@
                             </div>
                             <div class="product_intro_block">
                                 <h4 id="lang_SKT">ShareKanTan</h4>
-                                <h6 id="lang_SKT_cont">內建易分享APP使用手機操控，並分享手機內多媒體檔案至螢幕</h6>
+                                <p id="lang_SKT_cont">內建易分享APP使用手機操控，並分享手機內多媒體檔案至螢幕</p>
                             </div>
                         </div>
                     </div>
@@ -270,14 +276,19 @@
           <div class="container">
               <div class="row">
                 <h2 style="text-align:center" id="lang_scenario_title">插上螢幕、電源、鍵盤及滑鼠即可立即使用</h2>
+                <p class="text-center">Bundled with HDMI extension cable help to connect hard-to-reach HDMI ports</p>
                 <br>
 
               </div>
           </div>
           <div class="container">
               <div class="row">
-                  <div class="col-md-12 col-sm-12 col-xs-12 multisize_plug_scen">
+                  <!--<div class="col-md-12 col-sm-12 col-xs-12 multisize_plug_scen">
                             <img class="plug_scenario center-block img-responsive " src="images/PC_stick_io_introduction.jpg">
+                  </div>-->
+                  <div class="col-md-12">
+                    <img src="images/PC_stick_io_introduction.jpg" class="img-responsive center-block intro_web">
+                    <img src="images/PC_stick_io_introduction._xs.jpg" class="img-responsive center-block intro_mobile">
                   </div>
               </div>
           </div>
@@ -297,7 +308,7 @@
 
                         </div>
                     </div>
-                    <div class="container-fluid">
+                    <!--<div class="container-fluid">
                         <div class="row">
                             <div class="col-md-4 col-sm-4 col-xs-12 center-block img-responsive scenario_pics1">
                               <img class="normalsize_scenario" src="images\pcstick_scenario_1.jpg">
@@ -311,6 +322,14 @@
 
                         </div>
 
+                  </div>-->
+
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-md-4 col-sm-4 col-xs-12 scen_pic1"></div>
+                      <div class="col-md-4 col-sm-4 col-xs-12 scen_pic2"></div>
+                      <div class="col-md-4 col-sm-4 col-xs-12 scen_pic3"></div>
+                    </div>
                   </div>
 
 
@@ -380,7 +399,8 @@
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 DOWNLOAD_TITLE">
                   <img src="images/sharekanten163.png" class="img-responsive" style="display:block; margin:auto;">
-                  <h2 id="lang_Suport">支援 易分享 APP</h2>
+                  <h2>ShareKanTan</h2>
+                  <h4 class="text-center" id="lang_Suport">支援 易分享 APP</h4>
                 </div>
             </div>
 
@@ -503,7 +523,7 @@
                             </div>
                             <div class="col-md-4">
 
-                                <!--<a href="#" target="_blank" class="btn btn-block button">Buy Now</a>-->
+                                <a href="http://shopping.eql.com.tw/v2/official" target="_blank" class="btn btn-block button">Online Shop</a>
                             </div>
                         </div>
                     </div>
