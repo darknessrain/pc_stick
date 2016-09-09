@@ -881,7 +881,7 @@ color:#00C0F3;
 	height:350px \9;
 }
 @media (max-width: 768px) {
-	
+
 }
 
 @media (max-width: 552px) {
@@ -889,7 +889,7 @@ color:#00C0F3;
 	  min-height:320px;
 	  height:320px \9;
     }
-	
+
 	.scen_pic1, .scen_pic2, .scen_pic3 {
 	  height:20em;
 	}
@@ -902,7 +902,7 @@ color:#00C0F3;
 	.intro_web {
 		display:none;
     }
-	
+
 	.team-item {
 	  min-height:200px;
 	  height:200px \9;
@@ -911,3 +911,4 @@ color:#00C0F3;
 
 
 
+.carousel-inner>.item>img,.img-responsive,.thumbnail a>img,.thumbnail>img{display:block;max-width:50%;height:auto}
