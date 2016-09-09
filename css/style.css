@@ -151,14 +151,12 @@ section{
   padding-bottom: 20px;
   padding-left: 18px;
   padding-right: 5px;
-  width:337px;
 }
 
 .product_intro_block{
   padding-left: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
-
 }
 
 
@@ -911,8 +909,4 @@ color:#00C0F3;
     }
 }
 
-/*
-<!–[if IE]>
-.carousel-inner>.item>img,.img-responsive,.thumbnail a>img,.thumbnail>img{display:block;max-width:50%;height:auto}
-<![endif]–>
-*/
+.img-responsive {width: auto;}
