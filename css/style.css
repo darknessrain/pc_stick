@@ -839,3 +839,75 @@ background-color:#3C55A4;
 color:#00C0F3;
 
 }
+
+
+
+
+
+
+/*---------------------Sara added--------------------*/
+
+.scen_pic1 {
+	background:url(../images/pcstick_scenario_1.jpg) center no-repeat;
+	background-size:cover;
+	height:30em;
+}
+
+.scen_pic2 {
+	background:url(../images/pcstick_scenario_2.jpg) center no-repeat;
+	background-size:cover;
+	height:30em;
+}
+
+.scen_pic3 {
+	background:url(../images/pcstick_scenario_3.jpg) center no-repeat;
+	background-size:cover;
+	height:30em;
+}
+
+
+
+
+.intro_web {
+	display:block;
+}
+
+.intro_mobile {
+	display:none;
+}
+
+.team-item {
+	min-height:350px;
+	height:350px \9;
+}
+@media (max-width: 768px) {
+	
+}
+
+@media (max-width: 552px) {
+	.team-item {
+	  min-height:320px;
+	  height:320px \9;
+    }
+	
+	.scen_pic1, .scen_pic2, .scen_pic3 {
+	  height:20em;
+	}
+}
+
+@media (max-width: 420px) {
+	.intro_mobile {
+		display:block;
+    }
+	.intro_web {
+		display:none;
+    }
+	
+	.team-item {
+	  min-height:200px;
+	  height:200px \9;
+    }
+}
+
+
+
