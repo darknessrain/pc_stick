@@ -293,8 +293,8 @@
                             <img class="plug_scenario center-block img-responsive " src="images/PC_stick_io_introduction.jpg">
                   </div>-->
                   <div class="col-md-12">
-                    <img src="images/PC_stick_io_introduction.jpg" class="img-responsive center-block intro_web">
-                    <img src="images/PC_stick_io_introduction._xs.jpg" class="img-responsive center-block intro_mobile">
+                    <img src="img/grey.gif" data-original="images/PC_stick_io_introduction.jpg" class="img-responsive center-block intro_web">
+                    <img src="img/grey.gif" data-original="images/PC_stick_io_introduction._xs.jpg" class="img-responsive center-block intro_mobile">
                   </div>
               </div>
           </div>
@@ -404,7 +404,7 @@
           <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 DOWNLOAD_TITLE">
-                  <img src="images/sharekanten163.png" class="img-responsive" style="display:block; margin:auto;">
+                  <img src="img/grey.gif" data-original="images/sharekanten163.png" class="img-responsive" style="display:block; margin:auto;">
                   <h2>ShareKanTan</h2>
                   <h4 class="text-center" id="lang_Suport">支援 易分享 APP</h4>
                 </div>
@@ -420,7 +420,7 @@
 
                   <div class="col-md-4 DOWNLOAD_BOX">
                     <div style="border: 1px solid #00AEEF; background-color:white; border-radius:0px;">
-                      <img src="images/download_icon01.jpg" class="img-responsive">
+                      <img src="img/grey.gif" data-original="images/download_icon01.jpg" class="img-responsive">
 
                       <h2 id="lang_bl_title">Android</h2>
                       <p id="lang_bl_text">支援Android 4.0及以上版本</p>
@@ -431,7 +431,7 @@
 
                   <div class="col-md-4 DOWNLOAD_BOX">
                     <div style="border: 1px solid #00AEEF; background-color:white; border-radius:0px;">
-                      <img src="images/download_icon02.jpg" class="img-responsive">
+                      <img src="img/grey.gif" data-original="images/download_icon02.jpg" class="img-responsive">
                       <h2 id="lang_iphone_title">iPhone</h2>
                       <p id="lang_iphone_text">支援iOS 8.0及以上版本</p>
                       <a href="#" target="_blank" class="BUTTON_BOX" style="margin-top:20px;" id="lang_download_text02">下載</a>
@@ -441,7 +441,7 @@
                   <div class="col-md-4 DOWNLOAD_BOX">
                     <div style="border: 1px solid #00AEEF; background-color:white; border-radius:0px;">
                       <!--<img src="images/download_icon03.jpg" class="img-responsive">-->
-                      <img src="images/download_icon03.jpg" class="img-responsive">
+                      <img src="img/grey.gif" data-original="images/download_icon03.jpg" class="img-responsive">
                       <h2 id="lang_skt_title">多媒體影音串流</h2>
                       <p id="lang_skt_text01">手機就是你的鍵盤跟滑鼠</p>
                     <!--  <div class="p2" id="lang_win_text02">僅可安裝於和小管家使用相同室內網路的 Lemel 智慧電腦棒</div>-->
@@ -562,12 +562,8 @@
   		  });
   		  </script>
 
-        <!--lazyload-->
-        <script>
-        $("img.lazy").lazyload({
-        effect : "fadeIn"
-        });
-        </script>
+
+
 
 
         <script type="text/javascript">
@@ -601,6 +597,16 @@
       <script type="text/javascript" src="js/easeljs-0.6.0.min.js"></script>
       <script type="text/javascript" src="js/J_S_Multi_language_LT_v1.0.js"></script>
       <script type="text/javascript" src="js/canvas360.js" charset="utf-8"></script>
-
+      <!--lazyload-->
+      <script type="text/javascript" charset="utf-8">
+       $(function() {
+           $("img.lazy").lazyload({
+               event : "sporty"
+           });
+       });
+       $(window).bind("load", function() {
+           var timeout = setTimeout(function() { $("img.lazy").trigger("sporty"); }, 5000);
+       });
+       </script>
     </body>
 </html>
