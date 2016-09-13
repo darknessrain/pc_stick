@@ -911,6 +911,14 @@ color:#00C0F3;
 
 .img-responsive {width: auto;}
 
+/*IE8老款 修正*/
 .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
   max-width:42% \9;
+}
+.specimg360{
+  display:none\9;
+}
+
+.eql360icon_css{
+  display:none\9;
 }
