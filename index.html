@@ -293,8 +293,8 @@
                             <img class="plug_scenario center-block img-responsive " src="images/PC_stick_io_introduction.jpg">
                   </div>-->
                   <div class="col-md-12">
-                    <img src="images/grey.gif" data-original="images/PC_stick_io_introduction.jpg" class="img-responsive center-block intro_web">
-                    <img src="images/grey.gif" data-original="images/PC_stick_io_introduction._xs.jpg" class="img-responsive center-block intro_mobile">
+                    <img src="images/grey.gif" data-original="images/PC_stick_io_introduction.jpg" class="img-responsive center-block intro_web" width="765" height="574">
+                    <img src="images/grey.gif" data-original="images/PC_stick_io_introduction._xs.jpg" class="img-responsive center-block intro_mobile" width="765" height="574">
                   </div>
               </div>
           </div>
@@ -603,9 +603,7 @@
            $("img.lazy").lazyload({
                event : "sporty"
              });
-           $("img.lazy").lazyload({
-              effect : "fadeIn"
-            });
+
        });
        $(window).bind("load", function() {
            var timeout = setTimeout(function() { $("img.lazy").trigger("sporty"); }, 3000);
