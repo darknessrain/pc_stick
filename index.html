@@ -550,7 +550,15 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.lazyload.js"></script>
+        <script src="js/jquery.lazyload.min.js"></script>
+
+        <script type="text/javascript" charset="utf-8">
+        $("img.lazy").lazyload({
+            effect : "fadeIn"
+            data_attribute: "original"
+        });
+         </script>
+
         <script>
   		  $(window).scroll(function(){
   		  var win_h = $(document).scrollTop();
@@ -598,12 +606,7 @@
       <script type="text/javascript" src="js/J_S_Multi_language_LT_v1.0.js"></script>
       <script type="text/javascript" src="js/canvas360.js" charset="utf-8"></script>
       <!--lazyload-->
-      <script type="text/javascript" charset="utf-8">
-      $("img.lazy").lazyload({
-          effect : "fadeIn"
-          data_attribute: "original"
-      });
-       </script>
+
 
     </body>
 </html>
