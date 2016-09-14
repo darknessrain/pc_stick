@@ -599,16 +599,12 @@
       <script type="text/javascript" src="js/canvas360.js" charset="utf-8"></script>
       <!--lazyload-->
       <script type="text/javascript" charset="utf-8">
-       $(function() {
-           $("img.lazy").lazyload({
-               event : "sporty"
-               data_attribute: "original"
-             });
+      jQuery(document).ready(function ($) {
+          $("img.lazy").lazyload(
+              { data_attribute: "original"
 
-       });
-       $(window).bind("load", function() {
-           var timeout = setTimeout(function() { $("img.lazy").trigger("sporty"); }, 3000);
-       });
+              });
+      });
        </script>
     </body>
 </html>
