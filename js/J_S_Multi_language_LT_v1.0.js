@@ -214,12 +214,12 @@ function changeAllNavBarUIWording(arr,lang_index){
 function detectUserLang(){
 
       console.log("loading lazyload");
-      jQuery(document).ready(function ($) {
+
         $("img.lazy").lazyload(
         { data_attribute: "original"
 
         });
-        });
+
       console.log(img.lazy);
 
     var IsforceChangeLang_index= getCookie('forceChangeLang_index');
