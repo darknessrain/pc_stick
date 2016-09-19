@@ -929,13 +929,19 @@ color:#00C0F3;
 
     min-width: 50%;
   }
+
+  .ie_pic_mod{
+
+    max-width:30%;
+    max-width:30% \9;
+  }
 }
 
 
 .img-responsive {width: auto;}
 
 /*IE8老款 修正*/
-.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+.ie_pic_mod{
   max-width:42% \9;
 }
 .specimg360{
@@ -948,14 +954,16 @@ color:#00C0F3;
 
 @media all and (-ms-high-contrast:none)
      {
-       .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
-         max-width:42%;
+       /*.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {*/
+        .ie_pic_mod{
+          max-width:42%;
 
        }
        .eql360icon_css{
          display:none;
        }/* IE10 */
-     *::-ms-backdrop, .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+     *::-ms-backdrop, .ie_pic_mod{
+     /*.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {*/
        max-width:42%;
      } /* IE11 */
      }
