@@ -28,6 +28,10 @@ html, body {
     width: 100%;
   }
 
+  .DOWNLOAD_BOX{
+    width:90%;
+    margin:auto;
+  }
 
 
 }
@@ -908,6 +912,25 @@ color:#00C0F3;
 	  height:200px \9;
     }
 }
+
+@media (max-width: 320px) {
+	.intro_mobile {
+		display:block;
+    }
+	.intro_web {
+		display:none;
+    }
+
+	.team-item {
+	  min-height:150px;
+
+    }
+  .slide1{
+
+    min-width: 50%;
+  }
+}
+
 
 .img-responsive {width: auto;}
 
