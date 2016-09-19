@@ -927,7 +927,11 @@ color:#00C0F3;
      {
        .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
          max-width:42%;
-       } /* IE10 */
+
+       }
+       .eql360icon_css{
+         display:none;
+       }/* IE10 */
      *::-ms-backdrop, .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
        max-width:42%;
      } /* IE11 */
