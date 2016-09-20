@@ -1,5 +1,5 @@
-﻿[
-{
+[
+   {
       "lang_title": "歡迎來到EQL - PC Stick網站",
       "lang_navproduct": "產品",
       "lang_navscenario": "應用",
@@ -8,6 +8,7 @@
       "lang_navfaq": "常見問題",
       "lang_navch": "TW - 繁體中文",
       "lang_naven": "EN - 英文",
+      "lang_navsho": "線上商店",
       "lang_Pdt_intro": "產品介紹",
       "lang_smartestpc": "小巧輕薄",
       "lang_smartestpc_cont": "世界上最小的Windows OS裝置",
@@ -52,8 +53,8 @@
       "lang_skt_title": "多媒體影音串流",
       "lang_skt_text01": "手機就是你的鍵盤跟滑鼠",
       "lang_download_text03": "更多介紹"
-    },
-    {
+   },
+   {
       "lang_title": "Welcome to EQL - PC Stick",
       "lang_navproduct": "Product Intro",
       "lang_navscenario": "Scenario",
@@ -62,20 +63,21 @@
       "lang_navfaq": "FAQ",
       "lang_navch": "TW - Chinese",
       "lang_naven": "EN - English",
+      "lang_navsho": "Online Shop",
       "lang_Pdt_intro": "Product Introduction",
       "lang_smartestpc": "The Smallest PC",
       "lang_smartestpc_cont": "A pocket-size PC only 11 cm long and 9.8mm thick",
       "lang_pcperformance": "PC Performance",
-      "lang_pcperformance_cont": "Provides all the computing functions as the same as a full-sized computer",
+      "lang_pcperformance_cont": "Embedded with Intel® Quad-core processor and Windows®10 OS",
       "lang_HDMI": "HDMI CEC",
       "lang_HDMI_cont": "Power on/off PC Stick, CEC-enabled TV will power on/off automatically",
       "lang_pluginfor": "Plug in for use",
-      "lang_pluginfor_cont": "Simply plug PC stick into the HDMI port then transform any HDMI TV or display into a computer",
+      "lang_pluginfor_cont": "Plug into HDMI ports then transform TV or display into a computer",
       "lang_usb_comp": "USB Compatible",
-      "lang_usb_cont": "Stand USB connector is compatible with any stand accessories",
+      "lang_usb_cont": "Connect keyboard, mouse and other USB devices",
       "lang_SKT": "ShareKanTan",
       "lang_SKT_cont": "Share pictures, videos and files from mobile device to TV or display",
-      "lang_scenario_title": "To control, cellphone is all you need",
+      "lang_scenario_title": "To use, just simply connect to display, power source, keyboard and mouse",
       "lang_APPLIC_title": "Home entertainment / Daily work / Meeting projection",
       "lang_Pdt_spec": "Product Specification",
       "lang_spec_SOC": "SOC",
@@ -96,15 +98,15 @@
       "lang_spec_win10": "Windows 10 Home (32bit)",
       "lang_spec_dim": "Dimension",
       "lang_spec_dim_cont": "38mm(W) x 100mm(L) x 9.8mm(H)",
-      "lang_Suport": "Support ShareKanTan APP",
+      "lang_Suport": "Use cellphone as keyboard and mouse. Multimedia streaming from cellphone to display",
       "lang_bl_title": "Android",
-      "lang_bl_text": "Available on iOS / APP Store",
+      "lang_bl_text": "Support Android 4.0 or later",
       "lang_download_text01": "Download",
       "lang_iphone_title": "iPhone",
-      "lang_iphone_text": "Required iOS 8.0 or 8.0+ version",
+      "lang_iphone_text": "Support iOS 8.0 or later",
       "lang_download_text02": "Download",
       "lang_skt_title": "Media Streaming",
       "lang_skt_text01": "Control your PC by ShareKanTan",
       "lang_download_text03": "More"
-}
+   }
 ]
